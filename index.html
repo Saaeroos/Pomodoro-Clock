@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang=en>
+<head>
+    <meta charset="utf-8">
+
+    <title>Pomodoro Clock</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+    <div id="all_content">
+      <h1>Pomodoro Clock</h1>
+      <p>break time</p>
+      <div id="breakTimer">
+        <button id="Bminus" class="btn">-</button>
+        <div id="x"></div>
+        <button id="Bplus" class="btn">+</button>
+      </div>
+      <br>
+      <p id="sessionTitle">Session Time</p>
+      <div id="sessionTimer">
+        <button id="Sminus" class="btn">-</button>
+        <div id="y"></div>
+        <button id="Splus" class="btn">+</button>
+      </div>
+      <br>
+      <div id="timerDiv">
+        <br>
+          <h2 id="title">Session</h2>
+          <p id="play"> &#x27A4; </p>
+          <p id="timer">25:00</p>
+      </div>
+      <br>
+      <button id="reset" class="btnR">Reset</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="pomodoro.js" type="text/javascript"></script>
+</body>
+</html>
